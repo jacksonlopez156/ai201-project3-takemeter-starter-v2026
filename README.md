@@ -293,7 +293,7 @@ I stopped because the core criteria are all met, and further investigation of a 
        [x] All five unit 5 sections have real content
        [x] Label Taxonomy includes the decision rule for your hardest boundary
        [x] The Dataset includes three hard cases
-       [ ] results.json and test_split.csv committed (the notebook does this)
+       [x] results.json and test_split.csv committed (the notebook does this)
        [x] At least four new commits
        [ ] Repository URL submitted — WRITE IT DOWN
 
