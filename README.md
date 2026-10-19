@@ -195,7 +195,7 @@ A secondary boundary exists between `analysis` and `hot_take` when a post includ
 | 2. Every label F1 ≥ 0.55 | ≥ 0.55 | min=0.818 | min=1.000 | min=0.952 | MET |
 | 3. Beats baseline accuracy | yes | yes (0.879 vs 0.364) | yes (1.000 vs 0.364) | yes (0.970 vs 0.364) | MET |
 | 4. `analysis` precision ≥ 0.70 | ≥ 0.70 | 0.818 | 1.000 | 0.917 | MET |
-| 5. Agreement with staff ≥ 0.70 | ≥ 0.70 | 1.000 (30/30) | — | — | MET |
+| 5. Agreement with staff ≥ 0.70 | ≥ 0.70 | 1.000 (30/30) | 1.000 (30/30) | 1.000 (30/30) | MET |
 
 ### Confusion matrix
 
@@ -221,7 +221,7 @@ A secondary boundary exists between `analysis` and `hot_take` when a post includ
 | 2 | Every label F1 | ≥ 0.55 | **MET** | Worst per-label F1 across all seeds is `analysis` at 0.818 (seed 42). All labels cleared 0.55 on every seed. |
 | 3 | Beats baseline | yes | **MET** | Baseline accuracy 0.364. All three seeds (0.879, 1.000, 0.970) exceed it on the same held-out posts. |
 | 4 | `analysis` precision | ≥ 0.70 | **MET** | Seed 42: 0.818, Seed 7: 1.000, Seed 2024: 0.917. All three above 0.70. |
-| 5 | Agreement with staff | ≥ 0.70 | **MET** | 30/30 = 100% agreement. Criterion target was 21/30 (0.70). |
+| 5 | Agreement with staff | ≥ 0.70 | **MET** | 30/30 = 100% agreement on all three seeds (same labelling exercise applies to all). Criterion target was 21/30 (0.70). |
 
 **Diagnoses**
 
@@ -263,7 +263,7 @@ The 30 posts in the staff set divide cleanly into three groups of 10: posts sp_0
 | 2. Every label F1 ≥ 0.55 | ≥ 0.55 | min=0.762 | min=1.000 | min=1.000 | MET |
 | 3. Beats baseline accuracy | yes | yes (0.848 vs 0.364) | yes (1.000 vs 0.364) | yes (1.000 vs 0.364) | MET |
 | 4. `analysis` precision ≥ 0.70 | ≥ 0.70 | 0.800 | 1.000 | 1.000 | MET |
-| 5. Agreement with staff ≥ 0.70 | ≥ 0.70 | 1.000 (30/30) | — | — | MET |
+| 5. Agreement with staff ≥ 0.70 | ≥ 0.70 | 1.000 (30/30) | 1.000 (30/30) | 1.000 (30/30) | MET |
 
 **Did it help, and how do I know:** The change did not help on seed 42. Accuracy on seed 42 dropped from 0.879 to 0.848, and `analysis` F1 dropped from 0.818 to 0.762. Seeds 7 and 2024 remained at 1.000. The confusion matrix for seed 42 after the change still shows 2 `hot_take` posts called `analysis` — the same count as before. The 5 additional `hot_take` examples with numbers may have slightly disrupted the training split for seed 42 without improving the model's treatment of the boundary.
 
