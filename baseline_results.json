@@ -1,0 +1,199 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 33,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 33,
+    "accuracy": 0.36363636363636365,
+    "f1_macro": 0.2260981912144703,
+    "per_label": {
+      "analysis": {
+        "precision": 0.34375,
+        "recall": 1.0,
+        "f1": 0.5116279069767442,
+        "support": 11
+      },
+      "hot_take": {
+        "precision": 1.0,
+        "recall": 0.09090909090909091,
+        "f1": 0.16666666666666669,
+        "support": 11
+      },
+      "reaction": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "Everyone at this race is wearing the same four shoes. Carbon plates have homogenised the whole start line.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Standing at the finish waiting for my sister and I'm more nervous than I was for my own race.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Looked up whether there was a marathon this weekend. Found one. Registered. Running it. It's fine.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Started the race and immediately knew my legs weren't there. Spent 26 miles bargaining with myself.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "The best training advice is still from books written thirty years ago. Everything since is just packaging.",
+      "gold": "hot_take",
+      "predicted": "hot_take"
+    },
+    {
+      "text": "This is the best I've felt at the end of a marathon in five years of running them. Something clicked this cycle.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Five consecutive weeks of 60+ miles. First time I've done that without getting injured. The difference was sleeping an average of 7.8 hours per night versus 6.4 in the previous block.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "The entry limit went from 8,000 to 12,000 this year without any change to the finish area. The finish chute queues in 2022 were already 20 minutes. I'm not entering until they explain what changed.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Just realised the shoes I set every PB in this year are the ones I bought by accident in the wrong size.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Got my entry! Been refreshing that page for forty minutes.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Every injury thread on this forum is the same injury and the same three replies.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Most coaches don't know your body. Most plans don't either. The problem is everyone acts like they do.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Third DNF this year. I don't really want to talk about it, just wanted to put it somewhere.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Tested caffeine timing across 8 long runs \u2014 30 minutes before, 60 minutes before, and no caffeine. RPE at the same pace was measurably lower at 60 minutes before in 5 of 6 runs. 30 minutes before showed no consistent difference from the control.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "My GPS watch recorded 26.3 miles. I'm claiming 26.3 miles.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Virtual races are not races. They are expensive strava segments with medals.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Carbon plates gave me about 2% on paper and roughly nothing in races. Three time trials in each shoe on the same loop, same month: 19:42/19:38/19:51 in the plates, 19:47/19:55/19:44 in the trainers. The overlap is bigger than the gap.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Got up at 5, drove ninety minutes, and it's cancelled. Standing in the car park in the rain reading the email.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Heart rate zones are astrology for runners.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Absolutely buried myself on that tempo and I regret nothing.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "I tracked sleep against session quality for eleven weeks. Under seven hours the next day's intervals were 6-8 seconds per mile slower, every time bar one. Small sample, one runner, but it's consistent enough that I've stopped scheduling hard days after late shifts.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "All the 'run more, run slower' advice online is right and nobody actually does it.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "The people who complain most about elites getting free entries have never actually watched elite racing.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "If you need a gel before 90 minutes you have a fuelling problem, not an energy problem.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "The club championship scoring changed in 2019 from top-6 to top-10. Since then our B team has finished above the A team twice. That's not depth improving, it's the scoring rewarding turnout.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Based on my training data from the last 16 weeks \u2014 average weekly mileage 52, long run average 18 miles \u2014 my predicted finish is around 3:22. That's using the Riegel formula, which assumes my recent half time of 1:33 is representative.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Split the field by finish time and looked at DNF rates. Under 3:30, about 1%. Over 5 hours, about 9%. The cutoff is at 6 hours and the aid stations start closing at 5:15, which might explain more of that than fitness does.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Tried the low-carb approach for eight weeks. Easy pace at the same heart rate dropped by 15 seconds a mile and never came back until I reintroduced carbohydrate. Whatever it does for fat oxidation, it cost me aerobic pace.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Got passed by a man in his seventies at mile 24 and it was the most motivating thing that's ever happened to me.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Most race organisers set their entry limits based on what the course can absorb and then raise it the following year.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Hit the wall at mile 20 so hard I had to walk for the first time in five years of racing. Sat in the car for an hour afterwards.",
+      "gold": "reaction",
+      "predicted": "analysis"
+    },
+    {
+      "text": "The entry fees are a scandal and everyone's decided to be fine with it.",
+      "gold": "hot_take",
+      "predicted": "analysis"
+    },
+    {
+      "text": "Compared finishing times for people who did the club's structured plan against those who self-coached. Structured group averaged 6 minutes faster, but they also averaged 8 more miles a week. The plan may just be a mileage delivery mechanism.",
+      "gold": "analysis",
+      "predicted": "analysis"
+    }
+  ]
+}
