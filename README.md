@@ -144,7 +144,7 @@ A secondary boundary exists between `analysis` and `hot_take` when a post includ
 - Validation: approximately 32 examples (~10–11 per label)
 - Test: approximately 32 examples (~10–11 per label)
 
-`reaction` has the fewest examples in test (approximately 10), which means its F1 will jump between seeds — criterion 2 accounts for this with a looser floor of 0.55. The training was run on CPU (device recorded in `results.json`).
+`reaction` has the fewest examples in test (approximately 10), which means its F1 will jump between seeds — criterion 2 accounts for this with a looser floor of 0.55. The training was run on **cpu** (device recorded in `results.json`). Seed 42 produced 87.9% accuracy, F1 macro 0.877.
 
 ---
 
